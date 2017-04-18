@@ -24,6 +24,12 @@ var api = new ParseServer({
 // Client-keys like the javascript key or the .NET key are not necessary with parse-server
 // If you wish you require them, you can set them as options in the initialization above:
 // javascriptKey, restAPIKey, dotNetKey, clientKey
+console.log('db url, cloud, app id, masterkey, server url:');
+console.log(api.databaseURI);
+console.log(api.cloud)
+console.log(api.appId)
+console.log(api.masterKey)
+console.log(api.serverURL)
 
 var app = express();
 
